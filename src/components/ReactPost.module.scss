@@ -1,0 +1,49 @@
+.reactPost {
+	box-sizing: border-box;
+	width: 100%;
+	flex-basis: 1;
+	background-color: #ffff99;
+	margin: 10px;
+	height: min-content;
+	padding: 20px;
+	border-radius: 1px;
+  box-shadow: -1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	.likedDiv {
+		position: relative;
+		height: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		margin: 10px 50px 0 0;
+		width: 100%;
+
+		p {
+			margin-right: 50px;
+		}
+		label {
+			position: absolute;
+			right: 10px;
+      cursor: pointer;
+			.like {
+				color: white;
+				filter: 
+        drop-shadow(-1px -1px 0px #000000) 
+        drop-shadow(2px -1px 0px #000000) 
+        drop-shadow(2px 2px 0px #000000)
+        drop-shadow(-1px 2px 0px #000000)
+			}
+			.liked {
+				color: rgb(59, 59, 255);
+        filter: 
+        drop-shadow(-1px -1px 0px #000000) 
+        drop-shadow(2px -1px 0px #000000) 
+        drop-shadow(2px 2px 0px #000000)
+        drop-shadow(-1px 2px 0px #000000)
+        
+			}
+		}
+	}
+	input {
+		display: none;
+	}
+}
